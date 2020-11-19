@@ -1,0 +1,7 @@
+
+quick guide
+export PATH=/Your_Code_Dir/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6/bin:$PATH
+
+cd <kernel path>
+ TARGET_PRODUCT=huawei89_td_jb MTK_ROOT_CUSTOM=../mediatek/custom MTK_PATH_SOURCE=../mediatek/kernel/ MTK_PATH_PLATFORM=../mediatek/platform/mt6589/kernel/ TARGET_BUILD_VARIANT=user make
+
